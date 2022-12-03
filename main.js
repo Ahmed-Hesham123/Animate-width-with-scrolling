@@ -1,0 +1,1 @@
+let section=document.querySelector(".three"),spans=document.querySelectorAll(".progress span");window.onscroll=function(){window.scrollY>=section.offsetTop-250&&spans.forEach(e=>{e.style.width=e.dataset.width})};
